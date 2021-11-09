@@ -41,8 +41,7 @@ const Part = ({ part }: { part: CoursePart }) => {
         </p>
       )
     default:
-      assertNever(part)
-      return <div></div>
+      return assertNever(part);
   }
 };
 
