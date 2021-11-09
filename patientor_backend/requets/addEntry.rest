@@ -1,0 +1,39 @@
+POST http://localhost:3001/api/patients/d2773598-f723-11e9-8f0b-362b9e155667/entries
+Content-Type: application/json
+
+{
+  "entry": {
+    "type": "OccupationalHealthcare",
+    "description": "random health check entry",
+    "date": "2020-01-01",
+    "specialist": "Test Testman",
+    "employerName": "Ape Apeteus",
+    "sickLeave": {
+      "startDate": "2020-02-01",
+      "endDate": "2020-02-04"
+    }
+  }
+}
+
+#{
+#  "entry": {
+#    "type": "HealthCheck",
+#    "description": "random health check entry",
+#    "date": "2020-01-01",
+#    "specialist": "Test Testman",
+#    "healthCheckRating": 2
+#  }
+#}
+
+#{
+#  "entry": {
+#    "type": "Hospital",
+#    "description": "random hospital entry",
+#    "date": "2020-01-01",
+#    "specialist": "Test Testman",
+#    "discharge": {
+#      "date": "2020-01-05",
+#      "criteria": "got good"
+#    }
+#  }
+#}
